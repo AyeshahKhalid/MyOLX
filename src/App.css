@@ -1,0 +1,137 @@
+.headerlaypiu{
+  background-color: indianred;
+}
+
+*{
+margin:0px;
+padding: 0px;
+}
+#sliderolx{
+  position: relative;
+  bottom: 15px;
+}
+.NavInput{
+   padding: 8px; 
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.NavInput:focus{
+  border:2px solid aqua;
+  outline: none;
+}
+select.NavInput{
+  width: 20%;
+  background-image: url("images/SearchIcon.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  padding: 8px 8px 8px 40px ;
+}
+.Searchbtn{
+  background-color: black;
+  border:3px solid black;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px; 
+  position: relative;
+  right: 31px;
+}
+.loginBtn{
+  background-color: transparent !important;
+  border-bottom: 2px solid black !important; 
+  border: none;
+  padding: 10px 10px;
+}
+.SellBtn{
+  /* border: 1px solid red; */
+ /* border-color:  linear-gradient(to right, yellow 33%, green 33%, teal 34%) !important; */
+  border-radius: 20px;
+  padding: 5px 20px;
+  margin-right: 10px;
+  box-shadow: 1px 1px 8px gray;
+}
+.SellBtn:focus{
+  outline: none;
+}
+/* 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.ChildHeadnav {
+  display: flex;
+  padding: 10px 50px;
+  box-shadow:0px 0px 1px ;
+ 
+   
+}
+.ChildHeadnav li{
+  padding: 0px 8px;
+  list-style-type: none;
+}
+
+.footerSec{
+ display: flex;
+ border: 1px solid rgb(161, 161, 161);
+ justify-content: space-around;
+ padding: 20px 0px;
+  background-color: #f8f8f8;
+  color:#063b3b ;
+}
+/* 88888888888888888888888888888888888888 */
+li{
+  list-style-type:none;
+}
+.footleft{
+  padding: 10px 0px;
+}
+.footerparent{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  background-color: #063b3b;
+  color: white;
+  padding-left: 0px;
+}
+.PostHeader{
+  padding:10px 80px;
+  background-color: #eeeeee;
+}
+/* ---------------------------post your add sction-------------------------- */
+.category{
+  border: 1px solid #c0bfbf;
+  margin: 20px 20%;
+  text-align: left;
+padding: 20px 20px;
+}
+.postButton{
+  background-color:transparent;
+border: 1px solid #c0bfbf;
+padding: 10px 10px;
+width: 50%;
+text-align: left;
+color: #8a8a8a;
+}
+.lastSearch{
+  padding: 20px 40px;
+  background-color: #f0f0f0;
+  justify-content: space-around;
+}
+.card{
+  width: 10rem;
+  padding: 0px 0px;
+  margin: 5px 40px;
+}
+.card-body{
+  
+  border-left: 5px solid #ffbb00;
+}
+/* ------------------------- */
+.product2{
+  padding: 40px 10px;
+}
+.product3{
+  padding:40px 10px ;
+}
